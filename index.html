@@ -41,7 +41,7 @@
                 <h1>Hey it's... <span>SAURABH</span></h1>
                 <div class="fld">Android Developer</div>
                 <div class="sect">Intermediate</div>
-                <button class="btn">Let's talk...</button>
+                <button class="btn" onclick="redirectToWhatsApp()">Let's talk...</button>
             </div>
             <div class="rightpic main1">
                 <div class="parent-bg">
@@ -135,10 +135,22 @@
     <script>
         let eml = document.getElementById("eml");
         eml.addEventListener('click', function(){
-            location.href = "mailto:mwshaikh@gmail.com";
+            location.href = "saurabhx2004@gmail.com";
         });
 
     </script>
+<script>
+    function redirectToWhatsApp() {
+        
+        
+        // Create the WhatsApp URL with the phone number and an optional message.
+        var whatsappURL = 'https://wa.me/918591033839';
+        
+        // Redirect to the WhatsApp chat.
+        window.location.href = whatsappURL;
+    }
+</script>
+
 </body>
 
 </html>
